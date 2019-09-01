@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven">
+
+<listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	<listener class-name="com.gbh.note.listeners.CustomListeners"></listener>
+</listeners>
+  
+  <test name="Login Test">
+    <classes>
+      <class name="com.gbh.note.testcases.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Add Note Test">
+    <classes>
+      <class name="com.gbh.note.testcases.AddNoteTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Update Note Test">
+    <classes>
+      <class name="com.gbh.note.testcases.UpdateNoteTest"/>
+    </classes>
+  </test>  <!-- Test -->
+  
+    
+  <test name="Delete Note Test">
+    <classes>
+      <class name="com.gbh.note.testcases.DeleteNoteTest"/>
+    </classes>
+  </test>  <!-- Test -->
+
+  
+</suite> <!-- Suite -->

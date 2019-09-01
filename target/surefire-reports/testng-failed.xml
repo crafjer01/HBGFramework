@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Data Driven]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.gbh.note.listeners.CustomListeners"/>
+  </listeners>
+  <test name="Add Note Test(failed)">
+    <classes>
+      <class name="com.gbh.note.testcases.AddNoteTest">
+        <methods>
+          <include name="addNoteTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.gbh.note.testcases.AddNoteTest -->
+    </classes>
+  </test> <!-- Add Note Test(failed) -->
+  <test name="Update Note Test(failed)">
+    <classes>
+      <class name="com.gbh.note.testcases.UpdateNoteTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="updateNoteTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.gbh.note.testcases.UpdateNoteTest -->
+    </classes>
+  </test> <!-- Update Note Test(failed) -->
+  <test name="Delete Note Test(failed)">
+    <classes>
+      <class name="com.gbh.note.testcases.DeleteNoteTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="deleteNoteTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.gbh.note.testcases.DeleteNoteTest -->
+    </classes>
+  </test> <!-- Delete Note Test(failed) -->
+</suite> <!-- Failed suite [Data Driven] -->

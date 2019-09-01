@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven" duration-ms="25322" started-at="2019-09-01T19:28:57Z" finished-at="2019-09-01T19:29:22Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="8038" started-at="2019-09-01T19:28:57Z" finished-at="2019-09-01T19:29:05Z">
+      <class name="com.gbh.note.testcases.LoginTest">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.gbh.note.testcases.LoginTest@78e94dcf]" name="LoginTest" duration-ms="7830" started-at="2019-09-01T15:28:57Z" finished-at="2019-09-01T15:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- com.gbh.note.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Add Note Test" duration-ms="10499" started-at="2019-09-01T19:29:05Z" finished-at="2019-09-01T19:29:15Z">
+      <class name="com.gbh.note.testcases.AddNoteTest">
+        <test-method status="PASS" signature="addNoteTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gbh.note.testcases.AddNoteTest@33afa13b]" name="addNoteTest" duration-ms="10050" started-at="2019-09-01T15:29:05Z" data-provider="dp" finished-at="2019-09-01T15:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Primera Nota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim tortor, aliquet at pellentesque et, vulputate eget dolor. Etiam facilisis mattis dictum. Pellentesque ac pharetra nulla. Cras nec semper purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum nisl ligula, at ultricies lectus lobortis id. Nulla elit velit, euismod id ligula id, cursus tempor massa. Vestibulum tempor placerat ornare. Proin et laoreet mi, vel semper urna. Nulla pulvinar nisi in velit mollis malesuada. Nulla vel vulputate sapien, a rhoncus massa. Aenean vehicula ornare magna, ut finibus enim pretium at. Quisque aliquet felis libero, eu finibus quam pretium et.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNoteTest -->
+      </class> <!-- com.gbh.note.testcases.AddNoteTest -->
+    </test> <!-- Add Note Test -->
+    <test name="Update Note Test" duration-ms="4634" started-at="2019-09-01T19:29:15Z" finished-at="2019-09-01T19:29:20Z">
+      <class name="com.gbh.note.testcases.UpdateNoteTest">
+        <test-method status="PASS" signature="updateNoteTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gbh.note.testcases.UpdateNoteTest@4df50bcc]" name="updateNoteTest" duration-ms="4524" started-at="2019-09-01T15:29:15Z" data-provider="dp" finished-at="2019-09-01T15:29:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Primera Nota Actualizada]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Esta es mi primera nota y ahora mismo la estoy actualizando]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNoteTest -->
+      </class> <!-- com.gbh.note.testcases.UpdateNoteTest -->
+    </test> <!-- Update Note Test -->
+    <test name="Delete Note Test" duration-ms="2088" started-at="2019-09-01T19:29:20Z" finished-at="2019-09-01T19:29:22Z">
+      <class name="com.gbh.note.testcases.DeleteNoteTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gbh.note.testcases.DeleteNoteTest@2f112965]" name="setUp" is-config="true" duration-ms="10170" started-at="2019-09-01T15:28:47Z" finished-at="2019-09-01T15:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteNoteTest()[pri:0, instance:com.gbh.note.testcases.DeleteNoteTest@2f112965]" name="deleteNoteTest" duration-ms="2058" started-at="2019-09-01T15:29:20Z" finished-at="2019-09-01T15:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoteTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gbh.note.testcases.DeleteNoteTest@2f112965]" name="tearDown" is-config="true" duration-ms="627" started-at="2019-09-01T15:29:22Z" finished-at="2019-09-01T15:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gbh.note.testcases.DeleteNoteTest -->
+    </test> <!-- Delete Note Test -->
+  </suite> <!-- Data Driven -->
+</testng-results>

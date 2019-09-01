@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Delete Note Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2,058">
+  <properties />
+  
+  
+            <testcase name="deleteNoteTest" time="2,058" classname="com.gbh.note.testcases.DeleteNoteTest" />
+      
+</testsuite>
